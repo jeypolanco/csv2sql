@@ -1,7 +1,6 @@
 import sqlite3
 import sys
 import os.path
-from IPython import embed
 
 class PacketDB:
     eth2_tbl = ["dst_mac text","src_mac text","ether_type text"]
